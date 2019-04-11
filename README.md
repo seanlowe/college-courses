@@ -1,7 +1,7 @@
 # college-courses
 Collection of all my CS college course work on github
 
-This repo is a merge of all my previous repos that only held coursework including
+This repo is a merge of all my previous repos that only held coursework at Colorado Mesa University including
  - adv-java
  - Spring2018-OOP
  - Spring18-VB
