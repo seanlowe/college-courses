@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Executable>C:\Users\sean\Documents\Visual Studio\FirstTest\Debug\FirstTest.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="TestCaseName.TestName" Duration="1" />
+    <TestDuration Test="SkateboardFirst.Skateboard" Duration="1" />
+    <TestDuration Test="Skateboard.DummyTest" Duration="1" />
+    <TestDuration Test="Skateboard.isMoving" Duration="1" />
+    <TestDuration Test="Skateboard.isGreased" Duration="1" />
+    <TestDuration Test="Skateboard.Grease" Duration="1" />
+    <TestDuration Test="Skateboard.grease" Duration="1" />
+    <TestDuration Test="Skateboard.clean" Duration="1" />
+    <TestDuration Test="Skateboard.kickOff" Duration="1" />
+    <TestDuration Test="Skateboard.tailGrind" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>

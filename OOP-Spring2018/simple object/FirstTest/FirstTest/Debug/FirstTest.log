@@ -1,0 +1,7 @@
+﻿  test.cpp
+  Skateboard.cpp
+  Generating Code...
+c:\users\sean\documents\visual studio\firsttest\firsttest\skateboard.cpp(66): warning C4715: 'Skateboard::isGreased': not all control paths return a value
+c:\users\sean\documents\visual studio\firsttest\firsttest\skateboard.cpp(58): warning C4715: 'Skateboard::isMoving': not all control paths return a value
+c:\users\sean\documents\visual studio\firsttest\firsttest\skateboard.cpp(109): warning C4715: 'PoweredSkateboard::isCharged': not all control paths return a value
+  FirstTest.vcxproj -> C:\Users\sean\Documents\Visual Studio\FirstTest\Debug\FirstTest.exe

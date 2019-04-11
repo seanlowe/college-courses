@@ -1,0 +1,232 @@
+<html>
+<head>
+	<title> Schedule Planner </title>
+	<link rel="stylesheet" href="style.css" />
+	<script type="text/javascript" src="script.js"> </script>
+
+</head>
+
+<body>
+	<header>
+		<h1> Schedule Planner </h1>
+		<h3> Title in Progress </h3>
+	</header>
+	
+	
+	<section id="intro">
+		<p> Welcome to my new schedule planner! My hope for this project is
+		that you will be able to use this to craft your class schedule for the 
+		next academic semester (J-terms and summers excluded).</p>
+	</section>
+	
+	<p> Enter your class information below. Information includes class CRN,
+	Course Designation, Class Title, Campus on which it is  held, the days when it meets,
+	the times when it meets, the location where it's held, and the instructor.
+	</p>
+	<button onclick="toggle_table_visibility('table');"> Click to Generate Schedule </button>
+	
+	<table id="table">
+		<tr> 
+			<th id="tableTopLeftCorner"> </th>
+			<th scope="col"> Sunday </th> 			<!-- 1 -->
+			<th scope="col"> Monday </th> 			<!-- 2 -->
+			<th scope="col"> Tuesday </th> 			<!-- 3 -->
+			<th scope="col"> Wednesday </th>		<!-- 4 -->
+			<th scope="col"> Thursday </th>			<!-- 5 -->
+			<th scope="col"> Friday </th>			<!-- 6 -->
+			<th scope="col"> Saturday </th>			<!-- 7 -->
+		</tr>
+		<tr> 
+			<th scope="row"> 8 AM </th>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+		</tr>
+		<tr> 
+			<th scope="row"> 9 AM </th>
+			<td> </td>
+			<td> <a onclick="toggle_visible('VGD');">Video Game Design </a></td>
+			<td rowspan="2"> <a onclick="toggle_visible('UID');"> User Interface Design </a></td>
+			<td> <a onclick="toggle_visible('VGD');">Video Game Design </a></td>
+			<td rowspan="2"> <a onclick="toggle_visible('UID');"> User Interface Design </a></td>
+			<td> <a onclick="toggle_visible('VGD');">Video Game Design </a></td>
+			<td> </td>
+		</tr>
+		<tr>
+			<th scope="row"> 10 AM </th>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+		</tr>
+		<tr> 
+			<th scope="row"> 11 AM </th>
+			<td> </td>
+			<td> <a onclick="toggle_visible('WPD2');"> Web Page Design 2 </a></td>
+			<td> </td>
+			<td> <a onclick="toggle_visible('WPD2');"> Web Page Design 2 </a></td>
+			<td> </td>
+			<td> <a onclick="toggle_visible('WPD2');"> Web Page Design 2 </a></td>
+			<td> </td>
+		</tr>
+		<tr> 
+			<th scope="row"> 12 PM </th>
+			<td> </td>
+			<td> </td>
+			<td rowspan="2"> <a onclick="toggle_visible('OOP');"> Object Oriented Programming </a></td>
+			<td> </td>
+			<td rowspan="2"> <a onclick="toggle_visible('OOP');"> Object Oriented Programming </a></td>
+			<td> </td>
+			<td> </td>
+		</tr>
+		<tr> 
+			<th scope="row"> 1 PM </th>
+			<td> </td>
+			<td> </td>
+			<td> E-Club Meetings </td>
+			<td> </td>
+			<td> </td>
+		</tr>
+		<tr> 
+			<th scope="row"> 2 PM </th>
+			<td> </td>
+			<td> <a onclick="toggle_visible('OSD');"> Operating Systems Design </a></td>
+			<td> </td>
+			<td> <a onclick="toggle_visible('OSD');"> Operating Systems Design </a></td>
+			<td> </td>
+			<td> <a onclick="toggle_visible('OSD');"> Operating Systems Design </a></td>
+			<td> </td>
+		</tr>
+		<tr> 
+			<th scope="row"> 3 PM </th>
+			<td> </td>
+			<td> </td>
+			<td rowspan="3"> <a onclick="toggle_visible('AdvP');"> Advanced Programming </a></td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+		</tr>
+		<tr> 
+			<th scope="row"> 4 PM </th>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+		</tr>
+		<tr> 
+			<th scope="row"> 5 PM </th>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+			<td> </td>
+		</tr>
+	</table>
+	
+	
+	
+	
+	<aside id="aside">
+		<div id='VGD'>
+		<p class="classBox"> <b>Class Information:</b> <br/>
+			CRN: 41656 <br/>
+			Course: CSCI 345 <br/>
+			Title: Video Game Design <br/>
+			Campus: Main Campus <br/>
+			Days Held: MWF <br/>
+			Times Held: 0900 - 0950 <br/>
+			Location Held: WS 118 <br/>
+			Instructor: Castleton <br/> <br/>
+			<button class="closeButton" onclick="hide_tags('VGD');"> Close </button>
+		</p>
+		</div>
+		
+		<div id='WPD2'>
+		<p class="classBox"> <b>Class Information:</b> <br/>
+			CRN: 41437 <br/>
+			Course: CSCI 206 <br/>
+			Title: Web Page Design 2 <br/>
+			Campus: Main Campus <br/>
+			Days Held: MWF <br/>
+			Times Held: 1100 - 1150 <br/>
+			Location Held: WS 118 <br/>
+			Instructor: Castleton <br/> <br/>
+			<button class="closeButton" onclick="hide_tags('WPD2');"> Close </button>
+		</p>
+		</div>
+		
+		<div id='OSD'>
+		<p class="classBox"> <b>Class Information:</b> <br/>
+			CRN: 41082 <br/>
+			Course: CSCI 470 <br/>
+			Title: Operating Systems Design <br/>
+			Campus: Main Campus <br/>
+			Days Held: MWF <br/>
+			Times Held: 1400 - 1450 <br/>
+			Location Held: WS 120 <br/>
+			Instructor: MacEvoy <br/> <br/>
+			<button class="closeButton" onclick="hide_tags('OSD');"> Close </button>
+		</p>
+		</div>
+		
+		<div id='UID'>
+		<p class="classBox"> <b>Class Information:</b> <br/>
+			CRN: 42478 <br/>
+			Course: CSCI 337 <br/>
+			Title: User Interface Design <br/>
+			Campus: Main Campus <br/>
+			Days Held: TR <br/>
+			Times Held: 0930 - 1045 <br/>
+			Location Held: WS 118 <br/>
+			Instructor: Payne <br/> <br/>
+			<button class="closeButton" onclick="hide_tags('UID');"> Close </button>
+		</p>
+		</div>
+		
+		<div id='OOP'>
+		<p class="classBox"> <b>Class Information:</b> <br/>
+			CRN: 41890 <br/>
+			Course: CSCI 375 <br/>
+			Title: Object Oriented Programming <br/>
+			Campus: Main Campus <br/>
+			Days Held: TR <br/>
+			Times Held: 1230 - 1345 <br/>
+			Location Held: WS 118 <br/>
+			Instructor: MacEvoy <br/> <br/>
+			<button class="closeButton" onclick="hide_tags('OOP');"> Close </button>
+		</p>
+		</div>
+		
+		<div id='AdvP'>
+		<p class="classBox"> <b>Class Information:</b> <br/>
+			CRN: 43390 <br/>
+			Course: CSCI 310 <br/>
+			Title: Advanced Programming: Visual Basic <br/>
+			Campus: Main Campus <br/>
+			Days Held: T <br/>
+			Times Held: 1500 - 1650 <br/>
+			Location Held: WS 120 <br/>
+			Instructor: Payne <br/> <br/>
+			<button class="closeButton" onclick="hide_tags('AdvP');"> Close </button>
+		</p>
+		</div>
+	</aside>
+	
+	
+	<article id="undertable">
+		<p> 
+		<b>Instructions:</b> <br/>
+		
+		</p>
+	</article>
+</body>
+</html>

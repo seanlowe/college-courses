@@ -1,0 +1,11 @@
+c:\users\sslowe\documents\visual studio 2017\Projects\day 2\day 2\bin\Debug\day 2.exe.config
+c:\users\sslowe\documents\visual studio 2017\Projects\day 2\day 2\bin\Debug\day 2.exe
+c:\users\sslowe\documents\visual studio 2017\Projects\day 2\day 2\bin\Debug\day 2.pdb
+c:\users\sslowe\documents\visual studio 2017\Projects\day 2\day 2\bin\Debug\day 2.xml
+c:\users\sslowe\documents\visual studio 2017\Projects\day 2\day 2\obj\Debug\day 2.vbprojResolveAssemblyReference.cache
+c:\users\sslowe\documents\visual studio 2017\Projects\day 2\day 2\obj\Debug\day_2.Form1.resources
+c:\users\sslowe\documents\visual studio 2017\Projects\day 2\day 2\obj\Debug\day_2.Resources.resources
+c:\users\sslowe\documents\visual studio 2017\Projects\day 2\day 2\obj\Debug\day 2.vbproj.GenerateResource.Cache
+c:\users\sslowe\documents\visual studio 2017\Projects\day 2\day 2\obj\Debug\day 2.exe
+c:\users\sslowe\documents\visual studio 2017\Projects\day 2\day 2\obj\Debug\day 2.xml
+c:\users\sslowe\documents\visual studio 2017\Projects\day 2\day 2\obj\Debug\day 2.pdb

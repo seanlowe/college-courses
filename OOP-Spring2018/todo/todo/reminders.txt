@@ -1,0 +1,4 @@
+the third task|HOME HIGH
+fuck me|HOME LOW
+zxcvbnmjkl|HOME MEDIUM
+asjhdjahdjahdlasd|HOME MEDIUM

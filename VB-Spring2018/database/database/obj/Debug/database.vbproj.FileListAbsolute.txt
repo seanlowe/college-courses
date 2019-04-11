@@ -1,0 +1,12 @@
+C:\Users\sean\Documents\Visual Studio\database\database\bin\Debug\database.exe.config
+C:\Users\sean\Documents\Visual Studio\database\database\bin\Debug\database.exe
+C:\Users\sean\Documents\Visual Studio\database\database\bin\Debug\database.pdb
+C:\Users\sean\Documents\Visual Studio\database\database\bin\Debug\database.xml
+C:\Users\sean\Documents\Visual Studio\database\database\obj\Debug\database.vbprojResolveAssemblyReference.cache
+C:\Users\sean\Documents\Visual Studio\database\database\obj\Debug\database.Form1.resources
+C:\Users\sean\Documents\Visual Studio\database\database\obj\Debug\database.Resources.resources
+C:\Users\sean\Documents\Visual Studio\database\database\obj\Debug\database.vbproj.GenerateResource.Cache
+C:\Users\sean\Documents\Visual Studio\database\database\obj\Debug\database.vbproj.CoreCompileInputs.cache
+C:\Users\sean\Documents\Visual Studio\database\database\obj\Debug\database.exe
+C:\Users\sean\Documents\Visual Studio\database\database\obj\Debug\database.xml
+C:\Users\sean\Documents\Visual Studio\database\database\obj\Debug\database.pdb

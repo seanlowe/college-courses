@@ -1,0 +1,12 @@
+E:\Visual Studio\CSCI337\UID HW1\UID HW1\bin\Debug\UID HW1.exe.config
+E:\Visual Studio\CSCI337\UID HW1\UID HW1\bin\Debug\UID HW1.exe
+E:\Visual Studio\CSCI337\UID HW1\UID HW1\bin\Debug\UID HW1.pdb
+E:\Visual Studio\CSCI337\UID HW1\UID HW1\bin\Debug\UID HW1.xml
+E:\Visual Studio\CSCI337\UID HW1\UID HW1\obj\Debug\UID HW1.vbprojResolveAssemblyReference.cache
+E:\Visual Studio\CSCI337\UID HW1\UID HW1\obj\Debug\UID_HW1.Form1.resources
+E:\Visual Studio\CSCI337\UID HW1\UID HW1\obj\Debug\UID_HW1.Resources.resources
+E:\Visual Studio\CSCI337\UID HW1\UID HW1\obj\Debug\UID HW1.vbproj.GenerateResource.Cache
+E:\Visual Studio\CSCI337\UID HW1\UID HW1\obj\Debug\UID HW1.vbproj.CoreCompileInputs.cache
+E:\Visual Studio\CSCI337\UID HW1\UID HW1\obj\Debug\UID HW1.exe
+E:\Visual Studio\CSCI337\UID HW1\UID HW1\obj\Debug\UID HW1.xml
+E:\Visual Studio\CSCI337\UID HW1\UID HW1\obj\Debug\UID HW1.pdb

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Executable>E:\Visual Studio\deathDiamond\Debug\deathDiamond.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="car.hasEngine" Duration="1" />
+    <TestDuration Test="car.hasWheels" Duration="1" />
+    <TestDuration Test="cityCar.hasEngine" Duration="1" />
+    <TestDuration Test="cityCar.hasWheels" Duration="1" />
+    <TestDuration Test="cityCar.GoodMPG" Duration="1" />
+    <TestDuration Test="rallyCar.hasEngine" Duration="1" />
+    <TestDuration Test="rallyCar.hasWheels" Duration="1" />
+    <TestDuration Test="rallyCar.hasAWD" Duration="1" />
+    <TestDuration Test="subaru.GoodMPG" Duration="1" />
+    <TestDuration Test="subaru.hasEngine" Duration="1" />
+    <TestDuration Test="subaru.hasWheels" Duration="1" />
+    <TestDuration Test="subaru.hasAWD" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>

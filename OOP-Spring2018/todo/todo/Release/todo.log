@@ -1,0 +1,15 @@
+﻿  main.cpp
+c:\users\sean\documents\git\remindersapp\todo\todo\reminder.h(156): warning C4018: '<': signed/unsigned mismatch
+c:\users\sean\documents\git\remindersapp\todo\todo\reminder.h(264): warning C4018: '<': signed/unsigned mismatch
+c:\users\sean\documents\git\remindersapp\todo\todo\reminder.h(338): warning C4018: '<': signed/unsigned mismatch
+c:\users\sean\documents\git\remindersapp\todo\todo\reminder.h(353): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+c:\users\sean\documents\git\remindersapp\todo\todo\reminder.h(417): warning C4715: 'Reminder::changeCategory': not all control paths return a value
+c:\users\sean\documents\git\remindersapp\todo\todo\reminder.h(395): warning C4715: 'Reminder::changePriority': not all control paths return a value
+c:\users\sean\documents\git\remindersapp\todo\todo\reminder.h(145): warning C4715: 'Reminder::stringToPriority': not all control paths return a value
+c:\users\sean\documents\git\remindersapp\todo\todo\reminder.h(133): warning C4715: 'Reminder::stringToCategory': not all control paths return a value
+c:\users\sean\documents\git\remindersapp\todo\todo\reminder.h(139): warning C4715: 'Reminder::priorityToString': not all control paths return a value
+c:\users\sean\documents\git\remindersapp\todo\todo\reminder.h(127): warning C4715: 'Reminder::categoryToString': not all control paths return a value
+  All 404 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  todo.vcxproj -> C:\Users\sean\Documents\git\remindersapp\todo\Release\todo.exe

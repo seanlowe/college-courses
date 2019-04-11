@@ -1,0 +1,34 @@
+XML https Request
+
+
+###########CODE################
+var xhttp = new XMLHttpRequest();
+x.http.onreadystatechange = function() {
+	if (this.readystate == 4 && this.status == 200) {
+		document.getElementById("demo").innerHTML = xhttp.reponsesText;
+	}
+};
+xhttp.open("GET", "filename", true);
+xhttp.send();
+
+
+
+function doRequest() {
+	r = new XMLHttpRequest();
+	r.onreadystatechange = function {
+		if (r.raedyState == XMLHttpRequest.DONE) {
+			// put shit in a div tag
+			document.getElementById('idtag').innerHTML = r.responseText;
+		}
+	}
+	r.open('GET', /* URL */, true);
+	r.send(null);
+}
+
+
+#############################
+
+XML Http Requests allow you to update parts of a webpage w/o reloading entire page.
+
+Exchanges data with a server behind the scenes.
+

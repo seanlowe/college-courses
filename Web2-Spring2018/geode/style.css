@@ -1,0 +1,87 @@
+/**** ELEMENTS ****/
+body {
+	background-color: darkgrey;
+}
+table {
+	width: 1200px;
+	height: 600px;
+	margin-right: 10px;
+	visibility: hidden;
+	padding: 10px;
+	position: absolute;
+	left: 250;
+}
+table tr {
+	border: 2px solid black;
+}
+table tr th {
+	background-color: lightgrey;
+	border: 2px solid black;
+	padding: 5px;
+}
+table tr td {
+	background-color: lightgrey;
+	border: 2px solid black;
+	font-size: 13;
+	min-width: 50px;
+	min-height: 50px;
+	max-width: 200px;
+	max-height: 100px;
+}
+aside {
+	height: 100%;
+	/*width: 50%;*/
+	padding-right: 10px;
+	padding-left: 10px;
+	position: relative;
+	right: 10;
+	top: 1;
+	width: 200px;
+	z-index: 1;
+	float: right;
+	visibility: hidden;
+}
+aside div {
+	position: absolute;
+}
+article {
+	width: 225px;
+	text-align: justify;
+}
+header {
+	border: 1px solid black;
+	font-size: 20px;
+	text-align: center;
+}
+/**** CLASSES ****/
+.ClassBox {
+	background-color: lightgrey;
+	border: 2px solid black;
+	float: right;
+	padding: 10px;
+}
+.closeButton {
+	background-color: white;
+	border: 2px solid darkgrey;
+	border-radius: 5px;
+	/*padding: 2px 16px;*/
+	width:100%;
+}
+.closeButton:hover{
+	background-color: darkgrey;
+	color: white;
+}
+
+/**** ID ****/
+#tableTopLeftCorner {
+	background-color: darkgrey;
+	border: none;
+}
+#undertable {
+	position: float;
+	bottom: 300;
+}
+
+
+
+
