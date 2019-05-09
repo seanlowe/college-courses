@@ -1,0 +1,65 @@
+Build Notes:
+---------------
+
+
+GRAMMAR
+--
+
+Notation:
+
+E = Expression
+T = Term
+F = Factor
+N = Number
+D = Digit
+EOS = End of Sequence
+
+
+
+v.1
+----------
+LEFT ASSOCIATIVE
+1. E -> E + T | T
+2. T -> T * F | F
+3. F -> (E) | N
+4. N -> D
+5. D -> D | EOS
+
+v1.0
+----------
+- Got Parser working reliably
+
+
+v1.0.1
+----------
+- Added swapped operator preference
+	- allow switching of * and +
+	new 1 would be E -> E * T | T
+	new 2 would be T -> t + F | F
+
+v1.0.2
+----------
+- Added basic test functionality
+- Added entry functions for private setter/getter functions
+	(to be redacted later - used only as proof of concept)
+
+
+
+		  END OF CURRENT BUILD NOTES
+------------------------==============---------------------
+
+FUTURE IDEAS / PLANS
+
+TODO::::
+v1.1
+----------
+add support to find result of entered equation.
+
+v1.2
+----------
+RIGHT ASSOCIATIVE
+1. E -> T + E | T
+2. T -> F * T | F
+3. F -> (E) | N
+4. N -> D
+5. D -> D | EOS
